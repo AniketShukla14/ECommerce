@@ -124,6 +124,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static')
 ]
+MEDIA_URL='/images/'
 
 MEDIA_ROOT=os.path.join(BASE_DIR,'static/images') # as the image is uploaded from outside ,hence it gets save automatically at the static image folder 
 # Default primary key field type
